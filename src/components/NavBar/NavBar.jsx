@@ -5,7 +5,7 @@ import { faBell, faSearch, faUserCircle } from '@fortawesome/free-solid-svg-icon
 
 function NavBar() {
     return (
-        <header className='w-full bg-white pb-6'>
+        <header className='w-full bg-white pb-6 shadow-lg'>
             <nav className='py-4 px-6'>
                 <ul className='flex justify-between items-center'>
                     <li><h1 className='text-4xl font-semibold text-blue-950'>RsChain</h1></li>
